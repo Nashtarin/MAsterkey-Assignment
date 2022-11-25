@@ -1,10 +1,15 @@
 import React from 'react';
+import Header from '../Shared/Header/Header';
+import CoolThings from './CoolThings';
 
 const Home = () => {
     return (
-        <div>
-            <h1>It's Home</h1>
-        </div>
+     <>
+     <Header/>
+     <div className='mt-3'>
+        <CoolThings/>
+     </div>
+     </>
     );
 };
 
