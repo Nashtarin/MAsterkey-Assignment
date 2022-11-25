@@ -5,7 +5,7 @@ const SingleItem = (props) => {
     const {name,picture,discount}=props.item
     return (
      <div className="col">
-           <div  className="card h- 25">
+           <div  className="h- 25">
   
   <div className="card-body h-25 ">
   <p className="card-title">{name}</p>
