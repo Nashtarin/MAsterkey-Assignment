@@ -12,9 +12,9 @@ const CoolThings = () => {
     },[])
     console.log(data)
     return (
-        <div className='d-flex'>
+        <div className='d-flex justify-content-between'>
             <h1>We picked some <span style={{color:"#FFAE5D"}}>cool things </span> for you!</h1>
-            <div className="row row-cols-1 row-cols-md-3">
+            <div className="ms-5 row row-cols-1 row-cols-md-3">
                 {
                     data.slice(0,6).map(i =><SingleItem
                     key={i._id}
