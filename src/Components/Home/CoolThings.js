@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-import coolThingsSingle from './coolThingsSingle';
+
 import SingleItem from './SingleItem';
 const CoolThings = () => {
     const [data,setData]=useState([])
